@@ -2,7 +2,7 @@
 
 Static personal portfolio for Md Refayatul Islam, a Computer Science & Engineering student at Bangladesh University of Professionals.
 
-The site presents projects, skills, experience, education, volunteer work, and contact links in a single-page layout. The current visual direction is adapted from the `open-design` project's `open-design-landing` / Atelier Zero style: warm paper texture, strong editorial typography, side rails, coral accents, and grid-based resume sections.
+The site presents projects, skills, experience, education, volunteer work, and contact links in a single-page layout. The current visual direction is adapted from the `open-design/design-systems/linear-app` system: compact dark-native surfaces, thin borders, minimal elevation, dense resume grids, and a restrained violet accent.
 
 ## Files
 
@@ -31,7 +31,8 @@ The site can be deployed to any static host such as Cloudflare Pages, GitHub Pag
 
 ## Design Notes
 
-- Keep the palette warm and restrained.
+- Keep the palette restrained and mostly neutral.
+- Prefer thin borders and surface contrast over heavy shadows.
 - Avoid generic stock imagery for project cards unless the images are real project screenshots.
 - Keep copy specific and grounded; avoid broad template phrases.
 - Add new projects as `.project-card` entries with a matching `data-category` for filtering.
