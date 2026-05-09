@@ -383,6 +383,30 @@ section { padding: var(--y) var(--x); position: relative; }
 }
 
 .profile-summary p { max-width: 72ch; font-size: 15px; }
+.about-points {
+    display: grid;
+    gap: 1px;
+    overflow: hidden;
+    margin-top: 18px;
+    border: 1px solid var(--border-soft);
+    border-radius: 8px;
+    background: var(--border-soft);
+}
+
+.about-points span {
+    display: block;
+    padding: 10px 12px;
+    background: var(--surface-2);
+    color: var(--muted);
+    font-size: 13px;
+}
+
+.about-points strong {
+    color: var(--text);
+    font-weight: 590;
+    margin-right: 8px;
+}
+
 .languages-info ul { list-style: none; display: grid; gap: 8px; }
 .languages-info li { font-size: 14px; }
 
