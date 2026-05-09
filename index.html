@@ -17,11 +17,13 @@
     <title>Md Refayatul Islam - Portfolio</title>
     <link rel="stylesheet" href="styles/main.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter+Tight:wght@400;500;600;700;800;900&family=Inter:wght@300;400;500;600&family=Playfair+Display:ital,wght@0,500;0,600;1,400;1,500;1,600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
     <link rel="icon" href="https://img.icons8.com/fluency/48/resume.png" type="image/png"> <!-- Generic Favicon -->
 </head>
 <body>
     <div class="progress-bar"></div>
+    <div class="side-rail left"><span>Portfolio · Dhaka</span></div>
+    <div class="side-rail right"><span>Web · Flutter · Hardware</span></div>
 
     <nav class="navbar">
         <a href="#home" class="nav-brand">Refayatul Islam</a>
@@ -47,29 +49,42 @@
     <main>
         <section id="home" class="hero">
             <div class="hero-content">
-                <div class="aos-item"><h1>Hi, I'm <span class="highlight">Md Refayatul Islam</span></h1></div>
-                <div class="aos-item">
-                    <p class="typewriter" id="typewriter" data-phrases='["Student Developer", "Full-Stack Enthusiast", "Flutter Developer", "Creative Problem Solver"]'>
-                        Your Future Innovator
-                    </p>
+                <div class="hero-copy">
+                    <p class="eyebrow aos-item">Portfolio · BUP CSE · MMXXVI</p>
+                    <div class="aos-item"><h1>Md Refayatul <em>Islam</em><span class="highlight">.</span></h1></div>
+                    <div class="aos-item">
+                        <p class="hero-deck">Computer Science student building grounded web, Flutter, open-source, and hardware projects from Dhaka.</p>
+                    </div>
+                    <div class="location-info aos-item">
+                        <span><i class="fas fa-map-marker-alt"></i> Dhaka, Bangladesh</span>
+                        <a href="tel:+8801518941350"><i class="fas fa-phone"></i> +8801518941350</a>
+                        <a href="mailto:refayatul@outlook.com"><i class="fas fa-envelope"></i> refayatul@outlook.com</a>
+                    </div>
+                    <div class="hero-meta aos-item">
+                        <span><strong>Focus</strong> Web · Flutter · Hardware</span>
+                        <span><strong>University</strong> Bangladesh University of Professionals</span>
+                        <span><strong>Mode</strong> Build · maintain · contribute</span>
+                    </div>
+                    <div class="cta-buttons aos-item">
+                        <a href="#projects" class="btn primary">
+                            <i class="fas fa-briefcase"></i> View Projects
+                        </a>
+                        <a href="#contact" class="btn secondary">
+                            <i class="fas fa-paper-plane"></i> Contact
+                        </a>
+                    </div>
                 </div>
-                <div class="location-info aos-item">
-                    <span><i class="fas fa-map-marker-alt"></i> Dhaka, Bangladesh</span>
-                    <a href="tel:+8801518941350"><i class="fas fa-phone"></i> +8801518941350</a>
-                    <a href="mailto:refayatul@outlook.com"><i class="fas fa-envelope"></i> refayatul@outlook.com</a>
+                <div class="hero-panel aos-item">
+                    <div class="portrait-frame">
+                        <img src="./assets/Rifat.jpg" alt="Md Refayatul Islam" loading="eager">
+                        <span class="corner tl"></span><span class="corner tr"></span><span class="corner bl"></span><span class="corner br"></span>
+                    </div>
+                    <div class="hero-index">
+                        <span><b>01</b> Student Developer</span>
+                        <span><b>02</b> Community Builder</span>
+                        <span><b>03</b> Open Source Contributor</span>
+                    </div>
                 </div>
-                <div class="cta-buttons aos-item">
-                    <a href="#projects" class="btn primary">
-                        <i class="fas fa-briefcase"></i> View Projects
-                    </a>
-                    <a href="#contact" class="btn secondary">
-                        <i class="fas fa-paper-plane"></i> Get in Touch
-                    </a>
-                </div>
-            </div>
-            <div class="scroll-indicator">
-                <div class="mouse"></div>
-                <p>Scroll</p>
             </div>
         </section>
 
@@ -78,7 +93,6 @@
             <div class="section-content-wrapper">
                 <div class="about-content">
                     <div class="about-image aos-item">
-                        <!-- Replace with your actual photo or a professional generic one -->
                         <img src="./assets/Rifat.jpg" alt="Md Refayatul Islam" loading="lazy">
                     </div>
                     <div class="about-text aos-item">
@@ -170,7 +184,6 @@
                     <button class="filter-btn" data-filter="opensource">Open Source</button>
                 </div>
                 <div class="projects-grid">
-                    <!-- Project Card Example with Unsplash Placeholder -->
                     <div class="project-card aos-item" data-category="web">
                         <div class="project-image"><img src="https://images.unsplash.com/photo-1517694712202-14dd9538aa97?ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=60" alt="Personal Portfolio Website" loading="lazy"></div>
                         <div class="project-info">
@@ -441,7 +454,7 @@
                  <a href="mailto:refayatul@outlook.com" aria-label="Email"><i class="fas fa-envelope"></i></a>
             </div>
             <p>© <span id="currentYear">2024</span> Md Refayatul Islam. All rights reserved.</p>
-            <p class="made-with">Crafted with <i class="fas fa-heart"></i> and code.</p>
+            <p class="made-with">Built and maintained by Md Refayatul Islam.</p>
         </div>
     </footer>
 
