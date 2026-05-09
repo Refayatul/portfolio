@@ -1,37 +1,44 @@
-# Md Refayatul Islam Portfolio
+# Md Refayatul Islam
 
-Static personal portfolio for Md Refayatul Islam, a Computer Science & Engineering student at Bangladesh University of Professionals.
+This is my personal portfolio.
 
-The site presents projects, skills, experience, education, volunteer work, and contact links in a single-page layout. The current visual direction is adapted from the `open-design` project's `open-design-landing` / Atelier Zero style: warm paper texture, strong editorial typography, side rails, coral accents, and grid-based resume sections.
+I am a Computer Science & Engineering student at Bangladesh University of Professionals. Most of my projects come from things I see around me: students needing resources, donors needing to be found quickly, communities needing better information, or small hardware ideas I want to test.
 
-## Files
+## Featured Work
 
-- `index.html` - page content and section structure
-- `styles/main.css` - responsive visual system and layout
-- `js/main.js` - navigation, theme toggle, section reveal, project filtering, scroll progress
-- `assets/Rifat.jpg` - profile image
+### BUP Blood Bank
 
-## Run Locally
+My main featured project right now. I built it for BUP so donor requests do not depend only on scattered posts, group chats, and personal contacts.
 
-This is a static site. You can open `index.html` directly, or run a local server:
+- 500+ registered donors/users
+- Flask backend
+- Supabase PostgreSQL and Storage
+- Tailwind CSS and DaisyUI
+- Live site: https://bupblood.org
 
-```bash
-python -m http.server 8010 --bind 127.0.0.1
-```
+### Palestine Lives
 
-Then visit:
+An educational and advocacy website about Palestine. I built it as a structured resource site, not just a single-page awareness link.
 
-```text
-http://127.0.0.1:8010/index.html
-```
+It includes history pages, massacre documentation, country data, diaspora resources, legal and journalist sections, boycott information, glossary, search, and action tools.
 
-## Deploy
+Live site: https://palestinelives.pages.dev
 
-The site can be deployed to any static host such as Cloudflare Pages, GitHub Pages, Netlify, or Vercel. Use the repository root as the publish directory.
+### Iqra / Offline Quran Finder
 
-## Design Notes
+Offline Quran recognition work for identifying surah and ayah from recitation audio. This is the same work behind Iqra / Offline Quran Finder.
 
-- Keep the palette warm and restrained.
-- Avoid generic stock imagery for project cards unless the images are real project screenshots.
-- Keep copy specific and grounded; avoid broad template phrases.
-- Add new projects as `.project-card` entries with a matching `data-category` for filtering.
+## What I Work With
+
+- Web: HTML, CSS, JavaScript, Flask
+- Data/backend: Supabase, PostgreSQL, MySQL, Firebase
+- AI/audio: Python, ONNX, audio recognition pipelines
+- Hardware: Arduino, sensors, servo motors
+- Tools: Git, GitHub, Linux, VS Code
+
+## Contact
+
+- Portfolio: https://refayatul.pages.dev
+- GitHub: https://github.com/refayatul
+- LinkedIn: https://www.linkedin.com/in/refayatul7
+- Email: refayatul@outlook.com
