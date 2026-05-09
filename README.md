@@ -2,15 +2,15 @@
 
 This is my personal portfolio.
 
-I am a Computer Science & Engineering student at Bangladesh University of Professionals. I like building software around real needs I see nearby: student resource portals, blood donor systems, educational tools, civic websites, and small hardware automation projects.
+I am a Computer Science & Engineering student at Bangladesh University of Professionals. Most of my projects come from things I see around me: students needing resources, donors needing to be found quickly, communities needing better information, or small hardware ideas I want to test.
 
 ## Featured Work
 
 ### BUP Blood Bank
 
-My main featured project right now. I built it for BUP so donors can be found faster without depending on scattered posts or personal contacts.
+My main featured project right now. I built it for BUP so donor requests do not depend only on scattered posts, group chats, and personal contacts.
 
-- 500+ registered donors
+- 500+ registered donors/users
 - Flask backend
 - Supabase PostgreSQL and Storage
 - Tailwind CSS and DaisyUI
@@ -18,15 +18,15 @@ My main featured project right now. I built it for BUP so donors can be found fa
 
 ### Palestine Lives
 
-An educational and advocacy website about Palestine. I built it as a structured resource, not just a single-page awareness post.
+An educational and advocacy website about Palestine. I built it as a structured resource site, not just a single-page awareness link.
 
-It includes history timelines, massacre documentation, country pages, diaspora resources, legal and journalist sections, boycott data, glossary, search, and action tools for letters, calls, embassies, and embeds.
+It includes history pages, massacre documentation, country data, diaspora resources, legal and journalist sections, boycott information, glossary, search, and action tools.
 
 Live site: https://palestinelives.pages.dev
 
 ### Iqra / Offline Quran Finder
 
-Offline Quran recognition work for identifying surah and ayah from recitation audio. The pipeline uses audio preprocessing, ONNX inference, CTC decoding, and fuzzy matching against Quran verses.
+Offline Quran recognition work for identifying surah and ayah from recitation audio. This is the same work behind Iqra / Offline Quran Finder.
 
 ## What I Work With
 

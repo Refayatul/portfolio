@@ -525,7 +525,6 @@ section { padding: var(--y) var(--x); position: relative; }
 }
 
 .project-card.hide { opacity: 0; transform: translateY(6px); pointer-events: none; }
-.project-image { display: none; }
 .project-info {
     width: 100%;
     display: flex;
