@@ -500,6 +500,30 @@ section { padding: var(--y) var(--x); position: relative; }
     display: flex;
     transition: opacity 0.18s ease, transform 0.18s ease;
 }
+
+.project-card.featured-project {
+    grid-column: 1 / -1;
+    min-height: 280px;
+    background:
+        radial-gradient(circle at 100% 0%, rgba(94, 106, 210, 0.18), transparent 26rem),
+        var(--surface);
+}
+
+.featured-project .project-info {
+    padding: 26px;
+}
+
+.featured-project h3 {
+    font-size: clamp(30px, 4vw, 46px);
+    max-width: 16ch;
+}
+
+.project-kicker {
+    margin-bottom: 10px;
+    color: var(--accent-2);
+    font: 400 12px/1.4 var(--mono);
+}
+
 .project-card.hide { opacity: 0; transform: translateY(6px); pointer-events: none; }
 .project-image { display: none; }
 .project-info {
