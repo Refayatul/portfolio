@@ -1,0 +1,238 @@
+%-------------------------
+% Resume in Latex
+% Tailored: Software Engineer, Testing, Therap (BD) Ltd.
+%------------------------
+
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\usepackage{fontawesome5}
+\usepackage{xcolor}
+\usepackage{needspace}
+\input{glyphtounicode}
+
+\definecolor{accent}{HTML}{1A5FB4}
+\hypersetup{colorlinks=true, urlcolor=accent, linkcolor=accent}
+
+\pagestyle{fancy}
+\fancyhf{} 
+\fancyfoot{}
+\setlength{\footskip}{4.08003pt} 
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+\addtolength{\oddsidemargin}{-0.5in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-0.6in} 
+\addtolength{\textheight}{1.2in} 
+
+\urlstyle{same}
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-6pt}\scshape\raggedright\large\color{accent}
+}{}{0em}{}[\color{accent}\titlerule \vspace{-5pt}]
+
+\pdfgentounicode=1
+
+% Custom commands
+\newcommand{\resumeItem}[1]{
+  \item\small{
+    {#1 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{1pt}\item
+    \begin{tabularx}{\linewidth}{@{}X@{\hspace{10pt}}r@{}}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabularx}\vspace{-3pt} 
+}
+
+\newcommand{\resumeProjectHeading}[2]{
+    \item
+    \begin{tabularx}{\linewidth}{@{}X@{\hspace{10pt}}r@{}}
+      {\small#1} & #2 \\
+    \end{tabularx}\vspace{-5pt}
+}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.15in, label={}, itemsep=3pt, topsep=1pt]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+
+\newcommand{\resumeItemListStart}{\begin{itemize}[noitemsep, topsep=1pt, parsep=0pt, partopsep=0pt]}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-3pt}}
+
+\begin{document}
+
+%----------HEADING----------
+\begin{center}
+    \textbf{\Huge \scshape Md.\ Refayatul Islam} \\ \vspace{4pt}
+    \small \textit{CSE graduate with experience building full-stack and Android applications, seeking a Software Engineer role} \\ \vspace{2pt}
+    \small Dhaka, Bangladesh $|$ \href{tel:+8801518941350}{\underline{+8801518941350}} $|$ \href{mailto:refayatul7@gmail.com}{\underline{refayatul7@gmail.com}} \\ \vspace{2pt}
+    \small \href{https://refayatul.pages.dev/}{\underline{Portfolio}} $|$ \href{https://github.com/refayatul}{\underline{GitHub}} $|$ \href{https://www.linkedin.com/in/refayatul7}{\underline{LinkedIn}}
+\end{center}
+\vspace{-9pt}
+
+%-----------SKILLS-----------
+\section{Skills}
+ \begin{itemize}[leftmargin=0.15in, label={}, noitemsep, topsep=0pt]
+    \item \small{
+     \textbf{Programming}{: Java, Python, C++, Kotlin, JavaScript, HTML/CSS, Bash Scripting} \\
+     \textbf{Databases}{: SQL (MySQL, PostgreSQL), Room DB, Firebase Firestore, Supabase, Flyway Migrations} \\
+     \textbf{Frameworks \& Tools}{: Spring Boot, Flask, Express, Jetpack Compose, Git/GitHub, Linux/Unix} \\
+     \textbf{Practices}{: Data Structures \& Algorithms, Clean Architecture, MVVM, Agile/Version Control Workflows, RESTful APIs}
+    }
+ \end{itemize}
+
+%-----------EXPERIENCE-----------
+\section{Experience}
+  \resumeSubHeadingListStart
+    \needspace{7\baselineskip}
+    \resumeSubheading
+      {Software Developer (Industrial Attachment)}{July 2025 -- Aug 2025}
+      {Dynamic Solution Innovators (DSi) $|$ \normalfont\emph{Java, Spring Boot, Thymeleaf, PostgreSQL, Flyway}}{Dhaka $|$ \href{https://github.com/Refayatul/clubhub}{GitHub}}
+      \resumeItemListStart
+        \resumeItem{Built \textbf{ClubHub}, a Spring Boot + PostgreSQL platform for discovering and managing club events, with personalized feeds from joined clubs and interest-based feeds.}
+        \resumeItem{Implemented join/leave requests with an admin-verification workflow, along with personalized club feeds combining joined-club and interest-based recommendations.}
+        \resumeItem{Managed schema changes with Flyway, and packaged and deployed the app as a JAR on an Ubuntu Linux server DSi provided.}
+      \resumeItemListEnd
+
+    \needspace{8\baselineskip}
+    \resumeSubheading
+      {Founder \& Maintainer}{Sep 2024 -- Present}
+      {BUPBlood $|$ \normalfont\emph{Python, Flask, Supabase, HTML, CSS}}{\href{https://www.bupblood.org/}{Live} $|$ \href{https://github.com/Refayatul/BupBlood}{GitHub}}
+      \resumeItemListStart
+        \resumeItem{Built and independently maintain a live platform serving \textbf{500+ active donors} at BUP, handling development and quality assurance solo.}
+        \resumeItem{Built the registration workflow and database: users self-register, I manually review and approve each entry (catching malformed emails, roll numbers, and department names by pattern), then send a confirmation email or a correction request.}
+        \resumeItem{Implemented search by blood group, department, faculty, and student year, plus self-service account deletion and donation history updates.}
+      \resumeItemListEnd
+
+    \needspace{6\baselineskip}
+    \resumeSubheading
+      {Web Developer \& Maintainer}{2023 -- July 2026}
+      {Bup CSE Hub $|$ \normalfont\emph{JavaScript, PWA, JSON, HTML, CSS}}{\href{https://bupcse.pages.dev/}{Live} $|$ \href{https://github.com/Refayatul/bupcse}{GitHub}}
+      \resumeItemListStart
+        \resumeItem{Built a vanilla JavaScript PWA for BUP CSE's first-ever batch, which had no seniors, guidelines, or past-year materials to reference; now used across multiple batches.}
+        \resumeItem{Organized course material by batch and semester, past-year questions, and practical logistics (lab report formats, class schedules, room assignments), plus guides for competitive programming, CTF, and research, and a feature-request system for missing content.}
+      \resumeItemListEnd
+
+    \needspace{4\baselineskip}
+    \resumeSubheading
+      {Open Source Contributor}{2023 -- Present}
+      {Cloud Native Computing Foundation (CNCF)}{Open Source $|$ \href{https://github.com/cncf/glossary}{GitHub}}
+      \resumeItemListStart
+        \resumeItem{Contributed to infrastructure documentation by translating cloud concepts into Bangla, reviewing PRs for accuracy.}
+      \resumeItemListEnd
+  \resumeSubHeadingListEnd
+
+%-----------PROJECTS-----------
+\section{Projects}
+    \resumeSubHeadingListStart
+      \needspace{6\baselineskip}
+      \resumeProjectHeading
+          {\textbf{DiaBite (Diabetes Management App)} $|$ \emph{Kotlin, Jetpack Compose, Room, Firebase, Gemini API}}{\href{https://github.com/Refayatul/DiaBite}{GitHub}}
+          \resumeItemListStart
+            \resumeItem{Built a Clean Architecture app seeding a global food database from multiple international diabetic-nutrition sources, with fuzzy text/voice search over 1000+ items and a Gemini AI fallback for missing foods.}
+            \resumeItem{Cached each new AI-generated food entry permanently to Room and Firebase so future users querying the same food never re-spend AI tokens; synced latest data to Room on login for full offline use.}
+          \resumeItemListEnd
+
+      \needspace{6\baselineskip}
+      \resumeProjectHeading
+          {\textbf{Landlister (Real Estate Platform)} $|$ \emph{Node.js, Express, Supabase, JavaScript, HTML, CSS, JWT}}{\href{https://github.com/Refayatul/landlister}{GitHub}}
+          \resumeItemListStart
+            \resumeItem{University course project: built a platform removing middlemen from land sales, with price-negotiation offers, paid third-party listing verification, and support for bulk listings from developers.}
+            \resumeItem{Implemented a scam-reporting and ban system, plus a sold-listings archive that preserves transaction history.}
+          \resumeItemListEnd
+
+      \needspace{4\baselineskip}
+      \resumeProjectHeading
+          {\textbf{SohojSheba (AI Digital Services Assistant)} $|$ \emph{Kotlin, Jetpack Compose, Room, Firebase, Gemini AI}}{\href{https://github.com/Refayatul/SohojSheba}{GitHub}}
+          \resumeItemListStart
+            \resumeItem{Built an MVVM Android app that seeds a manually curated dataset of Bangladeshi government service processes, with fuzzy text/voice search and a Gemini AI fallback for services outside that dataset.}
+            \resumeItem{Cached each new AI-generated service guide to Room and Firebase for reuse, and added document upload (photo/PDF) with a bilingual (Bangla/English) AI chat assistant using a predefined persona for non-technical explanations.}
+          \resumeItemListEnd
+
+      \needspace{6\baselineskip}
+      \resumeProjectHeading
+          {\textbf{DeepAir-Dhaka (Air Quality Forecasting, Sole Developer)} $|$ \emph{Python, TensorFlow/Keras, Scikit-learn}}{\href{https://github.com/Paromita22/DeepAir}{GitHub}}
+          \resumeItemListStart
+            \resumeItem{Independently handled development, training, and testing for a ConvLSTM U-Net model forecasting neighborhood-level PM2.5 across Dhaka from 9 sparse monitoring stations.}
+            \resumeItem{Validated predictions against held-out data (R=0.97, MAE=3.39 \textmu g/m\textsuperscript{3}).}
+          \resumeItemListEnd
+
+      \needspace{4\baselineskip}
+      \resumeProjectHeading
+          {\textbf{Convert2Markdown (VS Code Extension)} $|$ \emph{TypeScript, Node.js, VS Code API, markitdown (Python)}}{\href{https://github.com/Refayatul/vscode-markitdown}{GitHub} $|$ \href{https://marketplace.visualstudio.com/items?itemName=refayatul.vscode-markitdown}{Marketplace} $|$ \href{https://open-vsx.org/extension/refayatul/vscode-markitdown}{Open VSX}}
+          \resumeItemListStart
+            \resumeItem{Built and published an extension converting PDF/Word/Excel/PowerPoint to Markdown, live on the VS Code Marketplace and Open VSX.}
+          \resumeItemListEnd
+
+      \needspace{4\baselineskip}
+      \resumeProjectHeading
+          {\textbf{Zen52 (Deep-Work Timer App)} $|$ \emph{Python, Flask, Supabase, JavaScript, HTML, CSS, Vercel}}{\href{https://github.com/Refayatul/zen52}{GitHub} $|$ \href{https://zen52.vercel.app/}{Live}}
+          \resumeItemListStart
+            \resumeItem{Built a focus-timer web app around the 52/17 rhythm, with configurable session presets (Pomodoro, Deep Work, Writing, Study, custom), daily goal tracking, and Supabase-synced sessions.}
+            \resumeItem{Added ambient sound mixing (rain, forest, waves) with saved presets, a consistency heatmap with session history and achievement badges, and a guided break routine between sessions.}
+          \resumeItemListEnd
+    \resumeSubHeadingListEnd
+
+%-----------EDUCATION-----------
+\section{Education}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {B.Sc. in Computer Science \& Engineering \textnormal{($\mathbf{CGPA:\ 3.69}$)}}{July 2022 -- July 2026}
+      {Bangladesh University of Professionals (BUP)}{Dhaka, Bangladesh}
+      \par\vspace{1pt}
+      \small{\textbf{Relevant Coursework:} Data Structures \& Algorithms, Database Management Systems, Artificial Intelligence, Machine Learning, Computer Networks, Telecommunication Engineering}
+    \resumeSubheading
+      {Higher Secondary Certificate}{2019 -- 2021}
+      {Chuadanga Government College}{Chuadanga, Bangladesh}
+  \resumeSubHeadingListEnd
+
+%-----------ACHIEVEMENTS-----------
+\section{Achievements}
+ \begin{itemize}[leftmargin=0.15in, label={}, noitemsep, topsep=0pt]
+    \item \small{
+     \textbf{ICPC Asia Dhaka Regional Contest Preliminary 2025}{: Secured \textbf{37th position} in Bangladesh solving algorithmic \& data structure problems (member, BUP Computer Programming Club).}
+    }
+ \end{itemize}
+
+%-----------VOLUNTEER EXPERIENCE-----------
+\section{Volunteer Experience}
+  \resumeSubHeadingListStart
+    \needspace{5\baselineskip}
+    \resumeSubheading{Community Outreach \& Support}{2019 -- Present}{Various Organizations}{Chuadanga \& Dhaka}
+      \resumeItemListStart
+        \resumeItem{Organized blood donation camps and awareness campaigns with \textbf{Munshigonj Blood Donation}.}
+        \resumeItem{Collaborated on localized student welfare projects and assisted community aid distribution with \textbf{Poriborton}.}
+      \resumeItemListEnd
+    \needspace{5\baselineskip}
+    \resumeSubheading{Technical Conferences}{2023}{Volunteer \& Participant}{Dhaka}
+      \resumeItemListStart
+        \resumeItem{Assisted in the coordination of technical events at the \textbf{2nd International Conference on ICICT4SD}.}
+        \resumeItem{Attended professional tech seminars at the \textbf{Grameenphone Academy Conference}.}
+      \resumeItemListEnd
+  \resumeSubHeadingListEnd
+
+%-----------LANGUAGES-----------
+ \begin{itemize}[leftmargin=0.15in, label={}, noitemsep, topsep=2pt]
+    \item \small{\textbf{Languages}{: Bangla, English -- Fluent Professional Proficiency}}
+ \end{itemize}
+
+%-------------------------------------------
+\end{document}

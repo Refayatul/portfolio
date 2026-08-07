@@ -1,0 +1,174 @@
+%-------------------------
+% Resume in Latex
+% Tailored: Full-Stack Engineer (MERN/Node Focus), All Gen Tech
+%------------------------
+
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage[left=0.4in, right=0.4in, top=0.4in, bottom=0.2in]{geometry} 
+
+\usepackage{latexsym}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\usepackage{fontawesome5}
+\usepackage{xcolor}
+\input{glyphtounicode}
+
+\definecolor{accent}{HTML}{1A5FB4}
+\hypersetup{colorlinks=true, urlcolor=accent, linkcolor=accent}
+
+\pagestyle{fancy}
+\fancyhf{}
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+\urlstyle{same}
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-10pt}\scshape\raggedright\large\color{accent}
+}{}{0em}{}[\color{accent}\titlerule \vspace{-6pt}]
+
+\pdfgentounicode=1
+
+% Custom commands
+\newcommand{\resumeItem}[1]{\item\small{{#1 \vspace{-3pt}}}}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{0pt}\item
+    \begin{tabularx}{\linewidth}{@{}X@{\hspace{10pt}}r@{}}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabularx}\vspace{-4pt}
+}
+
+\newcommand{\resumeProjectHeading}[2]{
+    \vspace{0pt}\item
+    \begin{tabularx}{\linewidth}{@{}X@{\hspace{10pt}}r@{}}
+      {\small#1} & #2 \\
+    \end{tabularx}\vspace{-5pt}
+}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.15in, label={}, itemsep=0pt, topsep=0pt]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+
+\newcommand{\resumeItemListStart}{\begin{itemize}[noitemsep, topsep=0pt, parsep=0pt, partopsep=0pt]}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-3pt}}
+
+\begin{document}
+
+%----------HEADING----------
+\begin{center}
+    \textbf{\Huge \scshape Md.\ Refayatul Islam} \\ \vspace{1pt}
+    \small \textit{Software Engineer specializing in scalable Node.js backends, TypeScript, and full-stack architecture} \\ \vspace{1pt}
+    \small \href{tel:+8801518941350}{\underline{+8801518941350}} $|$ \href{mailto:refayatul7@gmail.com}{\underline{refayatul7@gmail.com}} $|$ \href{https://www.linkedin.com/in/refayatul7}{\underline{LinkedIn}} $|$ \href{https://github.com/refayatul}{\underline{GitHub}} $|$ \href{https://refayatul.pages.dev/}{\underline{Portfolio}}
+\end{center}
+\vspace{-16pt}
+
+%-----------SKILLS-----------
+\section{Skills}
+\begin{itemize}[leftmargin=0.15in, label={}, noitemsep, topsep=0pt]
+    \item \small{
+      \textbf{Programming}{: JavaScript, TypeScript, Node.js, Java, Python, C++, Kotlin, HTML/CSS} \\
+      \textbf{Frameworks \& Tools}{: Express, Spring Boot, Flask, Git/GitHub, Jira/Agile, Vercel, Linux} \\
+      \textbf{Databases}{: MongoDB, SQL (PostgreSQL, MySQL), Document DBs (Firebase Firestore), Supabase} \\
+      \textbf{Architecture}{: RESTful APIs, Microservices basics, Clean Architecture, JWT Authentication, JSON}
+    }
+\end{itemize}
+
+%-----------EXPERIENCE-----------
+\section{Experience}
+\resumeSubHeadingListStart
+  \resumeSubheading
+    {Software Developer (Industrial Attachment)}{July 2025 -- Aug 2025}
+    {Dynamic Solution Innovators (DSi) $|$ \normalfont\emph{Java, Spring Boot, PostgreSQL, Linux}}{Dhaka $|$ \href{https://github.com/Refayatul/clubhub}{GitHub}}
+    \resumeItemListStart
+      \resumeItem{Built \textbf{ClubHub}, developing secure RESTful APIs for user management and personalized data feeds.}
+      \resumeItem{Collaborated with developers in an Agile environment, managed database migrations, and handled server deployments.}
+    \resumeItemListEnd
+
+  \resumeSubheading
+    {Founder \& Full-Stack Maintainer}{Sep 2024 -- Present}
+    {BUPBlood $|$ \normalfont\emph{Python, Flask, Supabase, HTML, CSS}}{\href{https://www.bupblood.org/}{Live} $|$ \href{https://github.com/Refayatul/BupBlood}{GitHub}}
+    \resumeItemListStart
+      \resumeItem{Engineered and actively maintain a live donor management system serving \textbf{500+ users}, acting as the primary product owner.}
+      \resumeItem{Designed strict data validation workflows and fast front-end interfaces to address complex functional needs.}
+    \resumeItemListEnd
+
+  \resumeSubheading
+    {Web Developer \& Maintainer}{2023 -- July 2026}
+    {Bup CSE Hub $|$ \normalfont\emph{JavaScript, PWA, JSON, HTML, CSS}}{\href{https://bupcse.pages.dev/}{Live} $|$ \href{https://github.com/Refayatul/bupcse}{GitHub}}
+    \resumeItemListStart
+      \resumeItem{Built a high-performance, responsive Progressive Web App (PWA) using vanilla JavaScript for cross-device use.}
+    \resumeItemListEnd
+    
+  \resumeSubheading
+    {Open Source Contributor}{2023 -- Present}
+    {Cloud Native Computing Foundation (CNCF)}{Open Source $|$ \href{https://github.com/cncf/glossary}{GitHub}}
+    \resumeItemListStart
+      \resumeItem{Translated cloud infrastructure concepts into Bangla for official documentation and reviewed pull requests for technical accuracy.}
+    \resumeItemListEnd
+\resumeSubHeadingListEnd
+
+%-----------PROJECTS-----------
+\section{Projects}
+\resumeSubHeadingListStart
+  \resumeProjectHeading
+      {\textbf{Landlister (Real Estate Platform)} $|$ \emph{Node.js, Express, MongoDB, JavaScript, JWT}}{\href{https://github.com/Refayatul/landlister}{GitHub}}
+      \resumeItemListStart
+        \resumeItem{Developed scalable back-end services and RESTful APIs using Node.js, Express, and MongoDB for a multi-user marketplace.}
+        \resumeItem{Implemented JWT authentication, price-negotiation tools, and an automated backend scam-banning algorithm.}
+      \resumeItemListEnd
+      
+  \resumeProjectHeading
+      {\textbf{Convert2Markdown (VS Code Extension)} $|$ \emph{TypeScript, Node.js, VS Code API}}{\href{https://github.com/Refayatul/vscode-markitdown}{GitHub}}
+      \resumeItemListStart
+        \resumeItem{Built and deployed a production-ready extension using TypeScript and Node.js, currently live on the VS Code Marketplace.}
+      \resumeItemListEnd
+
+  \resumeProjectHeading
+      {\textbf{Zen52 (Deep-Work Timer)} $|$ \emph{JavaScript, Python, Flask, Supabase, Vercel}}{\href{https://github.com/Refayatul/zen52}{GitHub} $|$ \href{https://zen52.vercel.app/}{Live}}
+      \resumeItemListStart
+        \resumeItem{Built a full-stack web app deploying responsive front-end components and cloud-synced backend databases.}
+      \resumeItemListEnd
+
+  \resumeProjectHeading
+      {\textbf{DiaBite (Healthcare App)} $|$ \emph{Kotlin, Jetpack Compose, Document DB (Firebase), Gemini AI}}{\href{https://github.com/Refayatul/DiaBite}{GitHub}}
+      \resumeItemListStart
+        \resumeItem{Architected a Clean Architecture app utilizing document-oriented databases (Firebase) to cache AI-generated healthcare data.}
+      \end{itemize}
+\resumeSubHeadingListEnd
+
+%-----------EDUCATION-----------
+\section{Education}
+\resumeSubHeadingListStart
+  \resumeSubheading
+    {B.Sc. in Computer Science \& Engineering \textnormal{(\textbf{CGPA:\ 3.72/4.00})}}{July 2022 -- July 2026}
+    {Bangladesh University of Professionals (BUP)}{Dhaka, Bangladesh}
+    \par\vspace{1pt}
+    \small{\textbf{Coursework:} Software Engineering, Data Structures, Databases, Object-Oriented Programming}
+  \resumeSubheading
+    {Higher Secondary Certificate \textnormal{(\textbf{GPA:\ 5.00/5.00})}}{2019 -- 2021}
+    {Chuadanga Government College}{Chuadanga, Bangladesh}
+\resumeSubHeadingListEnd
+
+%-----------ACHIEVEMENTS & VOLUNTEER-----------
+\section{Achievements \& Volunteer Experience}
+\begin{itemize}[leftmargin=0.15in, label={}, noitemsep, topsep=0pt]
+    \item \small{\textbf{Certifications \& Contests}{: Java Programming 1 (MOOC.fi) $|$ ICPC Asia Dhaka Regional 2025 (\textbf{37th} in Bangladesh).}}
+    \item \small{\textbf{Community Outreach}{: Coordinated blood donation camps with Munshigonj Blood Donation and tech events at ICICT4SD.}}
+\end{itemize}
+
+%-------------------------------------------
+\end{document}
